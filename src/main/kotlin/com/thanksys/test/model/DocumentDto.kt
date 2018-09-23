@@ -1,3 +1,5 @@
 package com.thanksys.test.model
 
-data class DocumentDto(val id: String, val name: String, val rank: Int)
+import javax.validation.constraints.NotNull
+
+data class DocumentDto(@field:NotNull val name: String, @field:NotNull val rank: Int, val id: String? = null)
