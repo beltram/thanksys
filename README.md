@@ -1,6 +1,6 @@
 # thanksys test by Beltram
 To run tests ```./gradlew clean test```  
-To run app ```./gradlew clean build```  
+To run app ```./gradlew clean bootRun```  
 # Tools
 * SpringBoot 2.0.5
 * Kotlin
